@@ -12,7 +12,7 @@ def linegraph():
     plt.title('Indian Imports and Exports of goods and services (% of GDP)') # title() command gives the title of the graph
     plt.xlabel('Year') # xlabel() command defines the X-Axis name of the graph
     plt.ylabel('Import of goods and services Data') # ylabel() command defines the Y-Axis name of the graph
-    plt.legend() # legend() command shows the index values on the graph
+    plt.legend() # legend() command shows the elements of the graph
     plt.show() # show() command shows the plotted graph
 
 # Graph 2 - Scatter plot
@@ -23,7 +23,7 @@ def scatterplot():
     plt.title('GDP per capita (US$) - SCATTER PLOT') # title() are defining the title of the graph
     plt.xlabel('Year') # xlabel() command defines the name of the X-Axis
     plt.ylabel('GDP per capita (US$)') # ylabel() command defines the name of the Y-Axis
-    plt.legend(["GDP per capita (US$)"]) # legend() command shows the index on the Graph
+    plt.legend(["GDP per capita (US$)"]) # legend() command shows the elements of the graph
     plt.savefig('scatterplot.png') # savefig() command saves the graph
     plt.show() # show() command shows the graph
 
@@ -35,7 +35,7 @@ def boxplot():
     plt.boxplot(dataforboxplot) # Plotting the boxplot
     plt.savefig('Box plot.png') # savefig() command saves a copy of the graph
     plt.title('GDP Growth (annual %)') # title() command creates the title of the Graph
-    plt.legend(['GDP Growth (annual %)']) # legend() command creates a index figure on the graph
+    plt.legend(['GDP Growth (annual %)']) # legend() command shows the elements of the graph
     plt.show() # show() command shows the plot 
 
 
